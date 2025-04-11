@@ -71,3 +71,22 @@
     border: 1px groove var(--font-color);
 }
 
+@media (max-width: 575.99px) { 
+    .filme-info {
+        display: block;
+    }
+
+    .img-info-capa {
+        width: 260px;
+        border-radius: 10px;
+        border: 3px groove var(--font-color);
+    }
+
+    .capa-img-vid img {
+        width: 120px;
+    }
+    
+    .box-eps h4 {
+        width: 120px;
+    }
+}

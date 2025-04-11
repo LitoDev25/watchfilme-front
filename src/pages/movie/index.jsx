@@ -43,8 +43,8 @@ export default function Movie() {
         return (
             <>
                 {seasons.map((season) =>
-                    <>
-                        <h2>Temporada: {temp += 1}</h2> <br />
+                    <div key={season._id}>
+                        <h2 key={season._id}>Temporada: {temp += 1}</h2> <br />
                         <div className="eps-box-all">
                             {season.episodes.map((eps) => (
                                 <div key={eps._id} className="box-eps">
@@ -60,7 +60,7 @@ export default function Movie() {
                                 </div>
                             ))}
                         </div>
-                    </>
+                    </div>
                 )}
             </>
         );

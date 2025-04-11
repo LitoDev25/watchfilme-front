@@ -76,3 +76,57 @@ header h1 {
     color: hsla(var(--blue-color));
     transform: scale(1.05);
 }
+
+
+@media (max-width: 575.99px) { 
+    .container {
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    .search-bar input {
+        height: 20px;
+        width: 80px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    header h1 {
+        font-size: 12pt;
+    }
+
+    
+    header a {
+        font-size: 10pt;
+    }
+
+    .search-bar button {
+        cursor: pointer;
+        height: 20px;
+        padding: 2px;
+        border-radius: 2px;
+    }
+  }
+
+@media (min-width: 576px) { 
+    .container {
+      width: 95%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 768px) {
+  
+  }
+  
+  @media (min-width: 992px) {
+  
+  }
+  
+  @media (min-width: 1200px) {
+  
+  }
+  
+  @media (min-width: 1400px) {
+  
+  }

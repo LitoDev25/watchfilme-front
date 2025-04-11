@@ -38,3 +38,13 @@
 .list-films img {
     width: 200px;
 }
+
+@media (max-width: 575.99px) { 
+    .list-films img {
+        width: 80px;
+    }
+
+    .list-films strong {
+        width: 80px;
+    }
+}
