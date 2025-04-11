@@ -1,0 +1,14 @@
+
+.error-handler {
+    height: 80vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-404 {
+    font-size: 100px;
+}

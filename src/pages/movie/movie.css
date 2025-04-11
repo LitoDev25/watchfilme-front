@@ -1,0 +1,73 @@
+.filme-info {
+    padding: 2rem;
+    display: flex;
+    gap: 30px;
+}
+
+.img-info-capa {
+    border-radius: 10px;
+    border: 3px groove var(--font-color);
+}
+
+.img-info-capa img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.infos-div-filme {
+    border-radius: 10px;
+    padding: 1.1rem;
+    border: 3px groove var(--font-color);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.list-episodios-div {
+    margin-bottom: 3rem;
+}
+
+.list-episodios-div h2 {
+    margin-top: 30px;
+}
+
+.eps-box-all {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 3px groove var(--font-color);
+    gap: 15px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.eps-box-all button {
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.25s;
+    border-radius: 8px;
+}
+
+.eps-box-all button:hover {
+    transform: scale(1.03);
+}
+
+.capa-img-vid img {
+    width: 220px;
+}
+
+.box-eps h4 {
+    width: 220px;
+}
+
+.gender-div-filme small {
+    background: var(--primary-color);
+    color: var(--font-color);
+    margin: 3px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    border: 1px groove var(--font-color);
+}
+

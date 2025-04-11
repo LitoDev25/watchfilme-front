@@ -1,0 +1,43 @@
+
+.reprodutor-video {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    overflow: hidden;
+    gap: 15px;
+}
+
+.reprodutor-video iframe {
+    width:  50vw;
+    height: 65vh;
+}
+
+.btn-uses {
+    display: flex;
+    gap: 3px;
+}
+
+.btn-uses button {
+    padding: 3px 8px;
+    background: var(--primary-color);
+    color: var(--font-color);
+    border: none;
+    cursor: pointer;
+}
+
+.divHeader-watch {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+.divHeader-watch a {
+    color: var(--font-color);
+    text-decoration: none;
+}

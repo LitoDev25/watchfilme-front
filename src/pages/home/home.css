@@ -1,0 +1,40 @@
+
+.article-capa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.article-capa button {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.25s;
+    gap: 5px;
+}
+
+.article-capa button:hover {
+    transform: scale(1.03);
+}
+
+
+.loading {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.list-films {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.list-films img {
+    width: 200px;
+}
