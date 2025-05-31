@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://filmewatch-1.onrender.com/",
+    baseURL: "https://watchanim.litodev.site/",
 })
 
 export default api;
